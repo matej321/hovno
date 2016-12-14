@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>towers</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/java.js" type="text/javascript" charset="utf-8" async defer></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+
+
+  <body>
+        
+       <div class="controls">
+      Pocet diskov
+       <select id="pocet">
+            <option value="3">3</option> 
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <input type="button" name="btn" value="Nova hra" onclick="novaHra()">
+  </div>
+   
+
+ 
+      
+
+      <div class="droppable" id="tower1">
+        
+        <div class="obsah" id="start"></div>
+      </div>
+      <div class="droppable" id="tower2">
+        
+        <div class="obsah"></div>
+        
+      </div>
+      <div class="droppable" id="tower3">
+       
+        <div class="obsah"></div>
+      </div>
+      <br>
+     <div id="navod">Cielom hry je presunúť všetky disky do stredného alebo pravého štvorca. Ukladať môžete iba menšie disky na večšie.</div>
+
+  </body>
+
+
+</html>

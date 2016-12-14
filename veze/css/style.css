@@ -1,0 +1,60 @@
+.droppable {
+  height: 200px;
+  width: 210px;      
+  float: left;
+  position: relative;
+  margin-right: 40px;
+
+  border: 1px solid;
+  border-color: #4ea5cd;
+}
+
+.draggable {
+  height: 25px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.disk1{
+  background-color: #4a8bf4;
+  width:200px;
+}
+
+.disk2{
+  background-color: #00CC33;
+  width:170px;
+}
+
+.disk3{
+  background-color: #E60000;
+  width:140px;
+}
+
+.disk4{
+  background-color: pink;
+  width: 110px;
+  }
+
+.disk5{
+  background-color: orange;
+  width: 80px;
+}
+
+.obsah{
+  width: 210px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.controls{
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+
+#navod{
+  padding: 10px;
+  margin-top: 23%;
+  width: 400px;
+  border: solid blue 1px;
+  border-radius: 5px;
+}
